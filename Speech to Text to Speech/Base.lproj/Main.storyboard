@@ -56,6 +56,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="previewTextView" destination="sSQ-eG-pVt" id="JXM-ck-Qb1"/>
+                        <outlet property="recordingButton" destination="5ug-rk-A1i" id="ht2-Lw-ZkP"/>
+                        <outlet property="speakButton" destination="Neu-uL-SMO" id="R4v-vm-fL4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

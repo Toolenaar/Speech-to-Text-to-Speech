@@ -12,6 +12,8 @@
 		1243D3271FB30D41004B14D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1243D3251FB30D41004B14D5 /* Main.storyboard */; };
 		1243D3291FB30D41004B14D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1243D3281FB30D41004B14D5 /* Assets.xcassets */; };
 		1243D32C1FB30D41004B14D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1243D32A1FB30D41004B14D5 /* LaunchScreen.storyboard */; };
+		1243D3361FB3106B004B14D5 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1243D3341FB30D8A004B14D5 /* Speech.framework */; };
+		1243D3371FB31072004B14D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1243D3351FB30D90004B14D5 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1243D3371FB31072004B14D5 /* AVFoundation.framework in Frameworks */,
+				1243D3361FB3106B004B14D5 /* Speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
