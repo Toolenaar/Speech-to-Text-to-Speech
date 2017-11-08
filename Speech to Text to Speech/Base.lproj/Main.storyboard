@@ -30,10 +30,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ug-rk-A1i">
                                 <rect key="frame" x="133" y="605" width="108" height="30"/>
                                 <state key="normal" title="Start Recording"/>
+                                <connections>
+                                    <action selector="recordButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DJs-aO-EZ8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Neu-uL-SMO">
                                 <rect key="frame" x="147" y="462" width="81" height="30"/>
                                 <state key="normal" title="Speak Back"/>
+                                <connections>
+                                    <action selector="speakButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NF9-7F-vyA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What can I help you with?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otU-5Z-pdh">
                                 <rect key="frame" x="90" y="36" width="196" height="21"/>
